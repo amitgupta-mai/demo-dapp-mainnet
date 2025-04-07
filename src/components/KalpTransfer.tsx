@@ -43,7 +43,7 @@ export function KalpTransfer() {
     writeKalpTransaction(
       dappToken,
       'TEST',
-      'test.kalp.com',
+      window.location.href,
       'http://localhost:3000/favicon.ico',
       'koot',
       'GetBalance',

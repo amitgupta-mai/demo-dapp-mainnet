@@ -12,7 +12,7 @@ function App() {
       NETWORK_NAME: 'intmainnet',
       CHAINCODE_NAME: 'koot',
       CHANNEL_NAME: 'intmainnet',
-      DAPP_URL: 'test.kalp.com',
+      DAPP_URL: window.location.href,
       DAPP_ICON:
         'https://kalp-cbdc-images.s3.ap-south-1.amazonaws.com/CBDC.png',
       DAPP_NAME: 'sample_dapp',
