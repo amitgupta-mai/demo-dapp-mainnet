@@ -39,7 +39,7 @@ export function KalpTransfer() {
     writeKalpTransaction(
       localStorage.getItem('dappToken'),
       'SplitChain',
-      'http://google.com',
+      window.location.origin,
       'http://localhost:3000/favicon.ico',
       'koot',
       'InitializeWallet',
