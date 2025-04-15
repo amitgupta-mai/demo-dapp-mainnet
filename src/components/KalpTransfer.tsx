@@ -2,7 +2,6 @@
 import { Send } from 'lucide-react';
 const writeKalpTransaction: any = (window as any)?.writeTransaction;
 // import { ethers } from 'ethers';
-import { infoToast } from '../helpers/utils';
 
 // enum TransactionType {
 //   PURE,
@@ -37,20 +36,17 @@ export function KalpTransfer() {
   // };
 
   const handleClaimBtn = () => {
-    const dappToken = localStorage.getItem('dappToken');
-    // const address = localStorage.getItem('dappEnrollmentID');
-    // const ownerAddress = localStorage.getItem('ownerAddress');
     writeKalpTransaction(
-      dappToken,
-      'TEST',
-      window.location.href,
+      localStorage.getItem('dappToken'),
+      'SplitChain',
+      'http://google.com',
       'http://localhost:3000/favicon.ico',
       'koot',
-      'GetBalance',
+      'InitializeWallet',
       ['walletid250'],
-      'intmainnet',
+      'kalptantra',
       (res: any) => {
-        infoToast(JSON.stringify(res));
+        console.log('re -----> ', res);
       }
     );
   };

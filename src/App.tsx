@@ -9,10 +9,10 @@ function App() {
 
   const defaultDappConfig = useMemo(() => {
     return {
-      NETWORK_NAME: 'intmainnet',
+      NETWORK_NAME: 'kalptantra',
       CHAINCODE_NAME: 'koot',
-      CHANNEL_NAME: 'intmainnet',
-      DAPP_URL: window.location.href,
+      CHANNEL_NAME: 'kalptantra',
+      DAPP_URL: 'http://google.com',
       DAPP_ICON:
         'https://kalp-cbdc-images.s3.ap-south-1.amazonaws.com/CBDC.png',
       DAPP_NAME: 'sample_dapp',
