@@ -44,7 +44,7 @@ export function KalpTransfer() {
       'koot',
       'GetBalance',
       ['walletid250'],
-      'kalptantra',
+      'kalptwo',
       (res: any) => {
         console.log('re -----> ', res);
       }

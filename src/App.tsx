@@ -9,13 +9,13 @@ function App() {
 
   const defaultDappConfig = useMemo(() => {
     return {
-      NETWORK_NAME: 'kalptantra',
+      NETWORK_NAME: 'Mainnet',
       CHAINCODE_NAME: 'koot',
-      CHANNEL_NAME: 'kalptantra',
+      CHANNEL_NAME: 'kalptwo',
       DAPP_URL: window.location.origin,
       DAPP_ICON:
         'https://kalp-cbdc-images.s3.ap-south-1.amazonaws.com/CBDC.png',
-      DAPP_NAME: 'sample_dapp',
+      DAPP_NAME: 'sample_dapp Mainnet',
       permissions: ['transaction'],
     };
   }, []);
