@@ -42,7 +42,7 @@ export function KalpTransfer() {
       window.location.origin,
       'http://localhost:3000/favicon.ico',
       'koot_chaincode_cc',
-      'InitializeWallet',
+      'GetBalance',
       ['walletid250'],
       'kalptwo',
       (res: any) => {
