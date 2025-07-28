@@ -10,7 +10,7 @@ function App() {
   const defaultDappConfig = useMemo(() => {
     return {
       NETWORK_NAME: 'Mainnet',
-      CHAINCODE_NAME: 'koot',
+      CHAINCODE_NAME: 'koot_chaincode_cc',
       CHANNEL_NAME: 'kalptwo',
       DAPP_URL: window.location.origin,
       DAPP_ICON:
